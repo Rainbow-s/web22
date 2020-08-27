@@ -1,0 +1,190 @@
+.banner-wrap {
+    width: 100%;
+    height: 300px;
+    background: url();
+}
+
+.banner-wrap img {
+    width: 100%;
+    height: 300px;
+}
+
+
+/* 主题 */
+
+.brand-main {
+    padding-top: 40px;
+    height: 5000px;
+}
+
+.brand-main .main {
+    width: 1200px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.main .brand-title {
+    width: 300px;
+    margin: 0 auto;
+    border-top: 1px solid #d2d2d2;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.brand-title span {
+    display: block;
+    width: 100px;
+    margin: -12px auto 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    background: #fff;
+}
+
+.main .brand-nav {
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.brand-nav a:first-child {
+    margin-left: 5px;
+}
+
+.brand-nav a:hover {
+    color: red;
+}
+
+.brand-nav .on {
+    font-weight: bold;
+    color: #f43434;
+}
+
+.brand-nav .point {
+    margin-left: 10px;
+    margin-right: 6px;
+}
+
+.brand-img {
+    margin-top: 40px;
+    /* margin-right: -10px; */
+}
+
+.brand-img .img-items li {
+    width: 278px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+    text-align: center;
+    border: 6px solid #E4E4E4;
+    float: left;
+}
+
+.brand-img .img-items li .img {
+    margin-bottom: 30px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-items li .img img {
+    width: 278px;
+    height: 285px;
+}
+
+.img .brand-desc {
+    padding: 0 20px;
+    color: #fff;
+    position: absolute;
+    width: 238px;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    line-height: 24px;
+    z-index: 2;
+    font-size: 14px;
+    transition: all .5s ease;
+    overflow: hidden;
+    text-align: center;
+}
+
+.brand-desc .tit {
+    padding-top: 90px;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.brand-desc .info {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.img .mask {
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background: #000;
+    opacity: .45;
+    filter: alpha(Opacity=45);
+    transition: all .5s ease;
+}
+
+.img-items li:hover .mask {
+    height: 285px;
+}
+
+.img-items li:hover .brand-desc {
+    height: 149px;
+    bottom: 137px;
+}
+
+.brand-img .b-logo {
+    height: 57px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.b-logo .follow {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    width: 80px;
+    height: 30px;
+    margin-left: -40px;
+    margin-top: -15px;
+    color: #fff;
+    background: #f43434;
+    line-height: 30px;
+    border-radius: 15px;
+    opacity: 0;
+}
+
+.b-logo img {
+    height: 57px;
+    max-width: 260px;
+    opacity: 1;
+    /* transition: all 1s; */
+}
+
+.img-items li:hover .follow {
+    opacity: 1;
+}
+
+.img-items li:hover .b-logo img {
+    opacity: 0;
+}
+
+.img-items li .name {
+    font-size: 14px;
+    color: #8c8c8c;
+    margin-bottom: 30px;
+}

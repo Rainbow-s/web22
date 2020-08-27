@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="shang" unicode="&#58917;" d="M998.4 179.2c-6.4 0-12.8 0-19.2 6.4L531.2 633.6c-6.4 6.4-25.6 6.4-32 0l-454.4-454.4c-6.4-6.4-25.6-6.4-32 0s-6.4 25.6 0 32l454.4 454.4c25.6 25.6 76.8 25.6 102.4 0l454.4-454.4c6.4-6.4 6.4-25.6 0-32C1011.2 179.2 1004.8 179.2 998.4 179.2z"  horiz-adv-x="1029" />
+
+    
+
+
+  </font>
+</defs></svg>

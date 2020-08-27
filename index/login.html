@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>会员中心_大商创商城系统 B2B2C 多商户系统 多店铺商城系统 企业级电商系统</title>
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../font/iconfont3.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/jquery-1.12.4.min.js"></script>
+</head>
+
+<body>
+    <!-- 登录界面头部 -->
+    <div class="login-hader">
+        <div class="w1200">
+            <div class="logo">
+                <a href="">
+                    <img src="../images/shop_logo.gif" alt="">
+                </a>
+            </div>
+            <div class="logo-span">
+                <img src="../images/login_logo_pic.png" alt="">
+            </div>
+            <div class="headre-right">
+                <span>
+                    还没有账号
+                    <a href="zhuc.html">免费注册</a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- 主体登陆部分 -->
+    <div class="main">
+        <div class="w1200">
+            <!-- 登录盒子 -->
+            <div class="login-box">
+                <!-- 二维码 -->
+                <div class="login-qr">
+                    <span class="iconfont icon-icon-erweimajiao"></span>
+                </div>
+                <div class="coagent">
+                    <!-- 第三方账号 -->
+                    <div class="coagent-tit">
+                        <h2>第三方账号直接登陆</h2>
+                        <p></p>
+                    </div>
+                    <!-- qq图标 -->
+                    <div class="coagent-qq">
+                        <a href="">
+                            <span class="icon-qq iconfont"></span>
+                            <span class="icon-QQ iconfont"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="login-content">
+                    <div class="coagent-tit">
+                        <h2>账号登陆</h2>
+                        <p></p>
+                    </div>
+                    <!-- form 表单 -->
+                    <div class="form">
+                        <form action="">
+                            <div class="item">
+                                <span class="icon-ico_name iconfont"></span>
+                                <input type="text" placeholder="用户/邮箱/密码">
+                            </div>
+                            <div class="item">
+                                <span class="icon-icon_password iconfont"></span>
+                                <input type="text" placeholder="密码">
+                            </div>
+                            <div class="item">
+                                <span class="icon-yanzhengma  iconfont"></span>
+                                <input type="text" placeholder="验证码">
+                                <img src="../images/captcha.png" alt="">
+                            </div>
+                            <div class="item item-btn">
+                                <input type="button" value="登&nbsp;&nbsp;录">
+                            </div>
+                            <p><a href="">忘记密码？</a></p>
+                        </form>
+                        <!-- qq二维码 -->
+                        <div class="login-qq-er">
+                            <img src="../images/erweima.png" alt="">
+                            <p>打开
+                                <a href="">大商创app</a> 扫描二维码
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 尾部 -->
+    <div class="footer">
+        <div class="w1200">
+            <p>
+                <a href="">首页</a>|
+                <a href="">隐私保护</a>|
+                <a href="">联系我们</a>|
+                <a href="">免责条款</a>|
+                <a href="">公司简介</a>|
+                <a href="">商家入驻</a>|
+                <a href="">供应商入驻</a>|
+                <a href="">意见反馈</a>
+            </p>
+            <p>
+                <a href="">b2b2c</a>|
+                <a href="">多用户商城系统</a>|
+                <a href="">商城系统</a>|
+                <a href="">ecjia新零售</a>
+            </p>
+        </div>
+    </div>
+    <script>
+        $(function() {
+            $(".login-qr").click(function() {
+                $(".form form").toggle()
+                $(".form .login-qq-er").toggle()
+            })
+        })
+    </script>
+</body>
+
+</html>

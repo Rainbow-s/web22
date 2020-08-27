@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>会员中心_大商创商城系统 B2B2C 多商户系统 多店铺商城系统 企业级电商系统</title>
+    <link rel="icon" type="text/css" href="../images/favicon.ico" />
+    <link rel="stylesheet" href="../css/zhuc.css">
+</head>
+
+<body>
+    <div class="loginin-header">
+        <div class="header">
+            <div class="logo">
+                <div class="logoImg">
+                    <img src="../images/shop_logo.gif" alt="">
+                </div>
+            </div>
+            <div class="logospan">
+                <span></span>
+            </div>
+            <div class="header-href">
+                <span>已注册可<a href="login.html" class="jump" style="color: #f42424;">在此登录</a></span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="wrap">
+            <div class="signup">
+                <div class="s-img"><img src="../images/1488939821671881226.jpg" alt=""></div>
+                <div class="form">
+                    <form action="">
+                        <div class="s-item">
+                            <div class="item-label">手 机 号 码</div>
+                            <div class="item-info">
+                                <input type="text" name="" id="phone" placeholder="请输入手机号" autocomplete="off">
+                            </div>
+                        </div>
+                        <div class="s-item">
+                            <div class="item-label">验　证　码</div>
+                            <div class="item-info">
+                                <input type="text" name="" id="random" placeholder="请输入图片验证码" autocomplete="off">
+                                <div class="random1">1 2 3 4</div>
+                            </div>
+                        </div>
+                        <div class="s-item">
+                            <div class="item-label">手机验证码</div>
+                            <div class="item-info">
+                                <input type="text" name="" id="phone-ma" placeholder="请输入短信验证码" autocomplete="off">
+                                <a href="javascript:0;" id="zphone" class="sms-btn">获取验证码</a>
+                            </div>
+                        </div>
+                        <div class="s-item">
+                            <div class="item-label">设 置 密 码</div>
+                            <div class="item-info">
+                                <input type="text" name="" id="setpsd" placeholder="请输入密码" autocomplete="off">
+
+                            </div>
+                        </div>
+                        <div class="s-item">
+                            <div class="item-label">确 认 密 码</div>
+                            <div class="item-info">
+                                <input type="text" name="" id="again-psd" placeholder="请再次确认密码" autocomplete="off">
+                            </div>
+                        </div>
+                        <div class="s-item item2">
+                            <div class="checkbox">
+                                <input type="checkbox" name="" id="checkbox">
+                                <label for="checkbox" class="ui-label">
+                                    我已阅读并同意
+                                    <a href="1">《大商创用户注册协议》</a>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="s-item item2 itme-btn">
+                            <input type="button" name="" id="btn" value="立即注册">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="wrap">
+            <div class="f-inner">
+                <p>
+                    <a href="https://x.dscmall.cn/">首页</a>|
+                    <a href="0">隐私保护</a>|
+                    <a href="0">联系我们</a>|
+                    <a href="0">免责条款</a>|
+                    <a href="0">公司简介</a>|
+                    <a href="0">商家入驻</a>|
+                    <a href="0">供应商入驻</a>|
+                    <a href="0">意见反馈</a>
+                </p>
+                <p>
+                    <a href="0">b2b2c</a>|
+                    <a href="0">多用户商城系统</a>|
+                    <a href="0">商城系统</a>|
+                    <a href="0">ecjia新零售</a>
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="../js/jquery.js"></script>
+    <script>
+        var random1 = document.getElementsByClassName("random1")[0];
+        random1.onclick = function() {
+            var num = parseInt(Math.random() * 10);
+            var num1 = parseInt(Math.random() * 10);
+            var num2 = parseInt(Math.random() * 10);
+            var num3 = parseInt(Math.random() * 10);
+            random1.innerText = num + "  " + num1 + "  " + num2 + "  " + num3;
+            console.log(random1.innerHTML)
+        }
+        $(".ui-label").click(function() {
+            $(".ui-label").toggleClass("active");
+        })
+    </script>
+</body>
+
+</html>

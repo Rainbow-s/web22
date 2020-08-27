@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1336401",
+      "name": "减",
+      "font_class": "plus-minus",
+      "unicode": "e728",
+      "unicode_decimal": 59176
+    }
+  ]
+}

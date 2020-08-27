@@ -1,0 +1,332 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Microsoft YaHei", tahoma;
+	
+	
+}
+a{
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+i,em{
+	font-style: normal;
+}
+
+/*头部*/
+.header{
+	width: 100%;
+	height: 30px;
+	margin: 0 auto 0;
+	background-color: #eee;
+	font-size: 12px;
+	line-height: 1.5;
+	color: #555;
+}
+.header::before{
+	display: block;
+	content: '';
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+.header::after{
+	display: block;
+	content: '';
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+
+/*公共样式*/
+
+.h_nav{
+	width: 1200px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #eee;
+	margin-bottom: 1px;
+	position: relative;
+	margin: 0 auto;
+}
+.h_nav .h_navleft{
+	margin-left: 10px;
+	float: left;
+	width: 183px;
+	height: 30px;
+}
+.h_citychoice{
+	float: left;
+}
+.h_citychoice a{
+	color: #555;
+}
+.h_city{
+	border: 1px solid #eee;
+	height: 28px;
+	line-height: 28px;
+	position: relative;
+	overflow: hidden;
+	padding: 0 7px;
+}
+.h_city .h_map{
+	display: block;
+	float: left;
+	margin-top: 2px;
+	font-size: 20px;
+	height: 26px;
+	color: #f42424;
+	line-height: 28px;
+}
+.h_city .h_zz{
+	float: left;
+	display: block;
+	line-height: 28px;
+	color: #8c8c8c;
+}
+.h_citylist{
+	width: 443px;
+	height: 236px;
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	border: 1px solid #d2d2d2;
+	background-color: #FFFFFF;
+	display: none;
+	z-index: 10;
+}
+.h_cityctx{
+	padding: 20px 8px 10px 15px;
+	width: 420px;
+	height: 206px;
+}
+.h_hot{
+	height: 20px;
+}
+.h_hot a{
+	float: left;
+	line-height: 20px;
+	padding: 0 5px;
+	margin-right: 5px;
+}
+.h_letter{
+	overflow: hidden;
+	margin: 10px 0 0 3px;
+}
+.h_letter a{
+	font-size: 14px;
+	color: #8c8c8c;
+	float: left;
+	line-height: 16px;
+	padding: 0 3px;
+	margin-right: 1px;
+	font-weight: 700;
+}
+.h_citybox{
+	width: 420px;
+	height: 150px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.h_alllist{
+	width: 400px;
+	height: 150px;
+	margin-left: 5px;
+	float: left;
+}
+.h_bar{
+	float: left;
+	height: 150px;
+	width: 7px;
+	position: relative;
+	margin-left: 5px;
+	background: url(../images/change_city.png) -7px 0 repeat-y;
+}
+.h_citybar{
+	position: absolute;
+	width: 7px;
+	height: 30px;
+	background: url(../images/change_city.png) 0 0 no-repeat;
+}
+.h_ul{
+	float: left;
+	position: relative;
+	height: auto;
+	overflow: hidden;
+	z-index: 9;
+}
+.h_ul li{
+	width: 100%;
+	float: left;
+}
+.h_ul li em{
+	height: 18px;
+	width: 18px;
+	line-height: 16px;
+	border-radius: 50%;
+	background-color: #eee;
+	font-weight: 700;
+	float: left;
+	display: inline-block;
+	margin: 2px 10px 0 0;
+	text-align: center;
+	color: #8c8c8c;
+}
+.h_itemcity{
+	width: calc(100% - 28px);
+	float: left;
+}
+.h_itemcity a{
+	float: left;
+	line-height: 20px;
+	margin: 0 5px 5px 0;
+	padding: 0 5px;
+}
+.h_itemcity a:hover{
+	background-color: #eee;
+	color: #f42424;
+}
+.h_userinfo{
+	float: left;
+	margin-left: 15px;
+}
+.h_load{
+	padding-right: 12px;
+	float: left;
+	color: #f42828;
+	line-height: 30px;
+}
+.h_free{
+	color: #8c8c8c;
+	float: left;
+	line-height: 30px;
+}
+.h_free:hover{
+	color: #e23435;
+}
+.h_hover .h_city{
+	padding-bottom: 2px;
+    border-color: #ccc;
+    border-bottom: none;
+    background-color: #fff;
+    z-index: 9;
+}
+.h_hover .h_citylist{
+	display: block;
+}
+.h_hot a:hover{
+	background-color: #f42424;
+    color: #fff;
+}
+.h_letter a:hover{
+	color: #f42424;
+}
+.h_navright{
+	width: 374px;
+	height: 30px;
+	float: right!important;
+}
+.h_navright li{
+	float: left;
+	position: relative;
+	line-height: 30px;
+}
+.h_navright li.h_lictx{
+	width: 62px;
+}
+.h_navright li.h_lictx div{
+	padding: 0 7px;
+}
+.h_lictx div a{
+	color: #8c8c8c;
+    display: block;
+    line-height: 30px;
+}
+.h_lictx div a:hover{
+	color: #e23435;
+	cursor: pointer;
+}
+.h_jg{
+	overflow: hidden;
+    margin: 11px 5px 0;
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+}
+.h_navit{
+	padding: 0 5px;
+	border: 1px solid #eee;
+	color: #8c8c8c;
+    height: 28px;
+    line-height: 28px;
+    position: relative;
+}
+.h_down{
+	font-size: 12px;
+	padding-left: 6px;
+	color: #8c8c8c;
+}
+
+.h_hover .h_navit{
+	cursor: pointer;
+	padding-bottom: 2px;
+    border-color: #ccc;
+    border-bottom: none;
+	background-color: #fff;
+    z-index: 4;
+}
+.h_navib{
+	position: absolute;
+	top: 30px;
+	right: 0px;
+	padding: 18px 0;
+	min-width: 380px;
+    border: 1px solid #d2d2d2;
+    background-color: #fff;
+	display: none;
+	z-index: 60;
+}
+.h_hover .h_navib{
+	display: block;
+}
+.h_theme,.h_pro{
+	padding-left: 30px;
+	float: left;
+}
+.h_theme{
+	border-right: 1px solid #efefef;
+    width: 85px;
+}
+.h_tszt,.h_cxhd{
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	font-weight: 700;
+    color: #666;
+    cursor: pointer;
+}
+.h_tsztitem{
+	float: left;
+}
+.h_item{
+	width: 75px;
+}
+.h_item a{
+	color: #8c8c8c;
+    display: block;
+    line-height: 30px;
+}
+.h_item a:hover{
+	color: #e23435;
+}
+.h_pro{
+	width: 225px;
+}
+.h_cxhd{
+	width: 100%;
+}
+.h_cxhditem .h_item{
+	float: left;
+}

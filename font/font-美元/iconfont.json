@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "554342",
+      "name": "美元",
+      "font_class": "iconset0293",
+      "unicode": "e6c0",
+      "unicode_decimal": 59072
+    }
+  ]
+}

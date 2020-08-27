@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3258120",
+      "name": "23 分类_大图",
+      "font_class": "fenlei_datu",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    }
+  ]
+}

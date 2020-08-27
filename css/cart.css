@@ -1,0 +1,815 @@
+.header-con{
+    width:100%;
+    height: 100px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f42424;
+    margin-bottom: 16px;
+}
+.header-con .banner{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+.header-con .banner .logo{
+    width: 290px;
+    height: 100px;
+    float: left;
+}
+.header-con .banner .logo a{
+    float: left;
+    width: 160px;
+    height: 58px;
+    margin: 21px 30px 21px 0;
+    background: url(../images/shop_logo.gif) no-repeat;
+}
+.header-con .banner .logo p{
+    float: left;
+    font-size: 18px;
+    color: #8c8c8c;
+    margin-top: 36px;
+}
+.buy-num{
+    font-size: 16px;
+    color: #f42424;
+}
+.header-con .banner .search{
+    width: 400px;
+    height: 34px;
+    margin-top: 30px;
+    float:right;
+}
+.header-con .banner .search input{
+    width: 332px;
+    height: 14px;
+    padding: 9px 8px;
+    border: 1px solid #f42424;
+    color: rgb(153, 153, 153);
+    outline: 0;
+}
+.header-con .banner .search button{
+    width: 50px;
+    height: 34px;
+    background-color: #f42424;
+    float: right;
+    border: 0;
+    border-radius: 3px;
+    outline: 0;
+    cursor: pointer;
+}
+.header-con .banner .search button i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/search.png) no-repeat;
+}
+.con{
+    width: 100%;
+    height: auto;
+    background-color: #f8f8f8;
+}
+.con .banner{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+.con .banner .con-header{
+    width: 1200px;
+    height: 36px;
+}
+.con .banner .con-header .flow-cart{
+    width: 128px;
+    height: 36px;
+    background-color: #ff8f23;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 18px;
+    float: left;
+    font-size: 14px;
+}
+.con .banner .con-header>span:first-of-type{
+    float: left;
+    width: 13px;
+    height: 36px;
+    margin: 0 12px;
+    line-height: 36px;
+    color: #ff8f23;
+}
+.con .banner .con-header .flow-info,.flow-success{
+    width: 128px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    float: left;
+    font-size: 14px;
+    color: #8c8c8c;
+}
+.con .banner .con-header>span:last-of-type{
+    float: left;
+    width: 13px;
+    height: 36px;
+    margin: 0 12px;
+    line-height: 36px;
+    color: #d2d2d2;
+}
+.con .banner .con-header .send{
+    width: 300px;
+    height: 25px;
+    float: right;
+    position: relative;
+}
+.con .banner .con-header .send p{
+    float: left;
+    width: 42px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #8c8c8c;
+    font-size: 14px;
+}
+
+
+
+
+/* 城市选择 */
+#city{
+    width:235px;
+    height: 25px;
+    padding-left: 10px;
+}
+._citys { 
+    width: 450px; 
+    display: inline-block; 
+    border: 2px solid #eee; 
+    padding: 5px; 
+    position: relative; 
+    background-color: #fff;
+}
+._citys span { 
+    color: #56b4f8; 
+    height: 15px; 
+    width: 15px; 
+    line-height: 15px; 
+    text-align: center; 
+    border-radius: 3px; 
+    position: absolute; 
+    right: 10px; 
+    top: 10px; 
+    border: 1px solid #56b4f8; 
+    cursor: pointer; 
+}
+._citys0 { 
+    width: 100%;
+    height: 34px; 
+    display: inline-block; 
+    border-bottom: 2px solid #56b4f8; 
+    padding: 0; margin: 0; 
+}
+._citys0 li { 
+    display: inline-block; 
+    line-height: 34px; 
+    font-size: 15px; 
+    color: #888; 
+    width: 80px; 
+    text-align: center; 
+    cursor: pointer; 
+}
+.citySel { 
+    background-color: #56b4f8; 
+    color: #fff !important; 
+}
+._citys1 { 
+    width: 100%; 
+    display: inline-block; 
+    padding: 10px 0; 
+}
+._citys1 a { 
+    width: 83px; 
+    height: 35px; 
+    display: inline-block; 
+    background-color: #f5f5f5; 
+    color: #666; 
+    margin-left: 6px; 
+    margin-top: 3px; 
+    line-height: 35px; 
+    text-align: center; 
+    cursor: pointer; 
+    font-size: 13px; 
+    overflow: hidden; 
+}
+._citys1 a:hover { 
+    color: #fff; 
+    background-color: #56b4f8; 
+}
+.AreaS { 
+    background-color: #56b4f8 !important; 
+    color: #fff !important; 
+}
+/* 城市选择 */
+
+input[type="checkbox"]{
+    display: none
+}
+label{
+    width: 14px;
+    height: 14px;
+    background: url(../images/check.png) no-repeat;
+    display: inline-block;
+}
+label.active{
+    background: url(../images/checked.png) no-repeat;
+}
+
+
+.cart-wrap{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 300px;
+}
+.cart-header{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #8c8c8c;
+    font-size: 14px;
+    background-color: #fff;
+    margin: 10px 0;
+}
+.cart-lists{
+    height: 110px;
+}
+.cart-lists li{
+    float: left ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.cart-box .cart-lists li{
+    height: 110px;
+}
+.cart-lists .cart-check{
+    width: 150px;
+}
+.cart-lists .cart-content{
+    width: 570px;
+}
+.cart-lists .cart-price{
+    width: 160px;
+}
+.cart-lists .cart-amount{
+    width: 130px;
+}
+.cart-lists .cart-sum{
+    width: 120px;
+}
+.cart-lists .cart-option{
+    width: 60px;
+    position: relative;
+}
+
+.cart-box{
+    width: 100%;
+}
+.cart-box .shop-info{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+}
+
+.cart-box .shop-info .all-check{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    float: left;
+}
+
+.cart-content .cart-img{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #ccc;
+}
+.cart-content .cart-img img{
+    width: 70px;
+    height: 70px;
+}
+.cart-content  .cart-text{
+    width: 260px;
+    margin-left: 20px;
+    margin-right: 10px;
+    height: 60px;
+    line-height: 20px;
+    font-size: 12px;
+    /* 多行文本出现省略号 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    color: #555;
+    cursor: pointer;
+}
+.cart-content  .cart-text:hover{
+    color: #f42424;
+}
+.cart-content .cart-color{
+    width: 185px;
+    height: 60px;
+    margin-left: 20px;
+    color: #555;
+    font-size: 12px;
+}
+.cart-price .price{
+    color: #333;
+}
+.cart-price .price::before{
+    content: "￥";
+}
+
+.cart-sum .price-sum{
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+.cart-sum .price-sum::before{
+    content: "￥";
+}
+.pay-price::before{
+    content: "￥";
+}
+
+
+.cart-amount .amount-box{
+    width: 60px;
+    height: 30px;
+    position: relative;
+    border: 1px solid #ccc;
+}
+.cart-amount .amount-box input{
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-right: 1px solid #ccc;
+    text-align: center;
+  
+}
+.cart-amount .amount-box button{
+    width: 29px;
+    height: 15px;
+    position: absolute;
+    left: 31px;
+    border: 0;
+    background-color: #fff;
+}
+.cart-amount .amount-box .add span{
+    font-size: 14px;
+    cursor: pointer;
+}
+.cart-amount .amount-box .reduce span{
+    color: #e0e0e0;
+    cursor: pointer;
+}
+.cart-amount .amount-box .reduce{
+    top: 15px;
+    border-top: 1px solid #cccccc;
+}
+.cart-dele,.cart-collect{
+    cursor: pointer;
+    font-size: 12px;
+    color: #438cde;
+}
+.cart-dele{
+    position: absolute;
+    top: 40px;
+    left: 22px;
+}
+.cart-collect{
+    position: absolute;
+    top: 56px;
+    left: 22px;
+}
+
+
+/* 自定义模态框 */
+.modal-bg{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,.5);
+    display:none;
+    z-index: 20;
+}
+.modal-box{
+    width: 360px;
+    height: 200px;
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -180px;
+    display:none;
+    z-index: 21;
+}
+.modal-box h2{
+    height: 40px;
+    background: #efefef;
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+}
+.modal-box p{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+    height: 80px;
+}
+.modal-box .btn{
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.modal-box .btn button{
+    background-color: #f55;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+.modal-box .btn button:first-child{
+    background-color: #ccc;
+}
+
+
+
+/* 、、、 */
+.cart-header .cart-lists .cart-check label{
+    position: absolute;
+    top: 18px;
+    left: 35px;
+}
+.cart-content{
+    background-color: #fff;
+}
+.cart-box .shop-info .all-check label{
+    position: absolute;
+    top: 18px;
+    right: 1px;
+}
+.cart-box .shop-info .shop-name a{
+    font-size: 14px;
+    color: #555;
+    font-weight: 900;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.cart-box .shop-info .shop-name a:hover{
+    color: #f42424;
+}
+.cart-box .shop-info .shop-name span{
+    font-size :18px ;
+    color: #fcc217;
+    float: left;
+    margin-left: 5px;
+}
+.cart-box .shop-info .shop-name span:hover{
+    color: #f42424;
+}
+.shop-name-active span:first-child{
+    float: left;
+    width: 62px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    background-color: #f42424;
+    padding: 0 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+    margin: 15px 0 0 5px;
+}
+.cart-box .shop-info .shop-name-active span:last-child{
+    font-size :18px ;
+    color: #7b75f3;
+    float: left;
+    margin-left: 5px;
+}
+.cart-box .shop-info .shop-name-active span:last-child:hover{
+    color: #f42424;
+}
+
+/* 结算 */
+.cart-footer>div{
+    float: left;
+    text-align: center;
+}
+.cart-footer{
+    height: 50px;
+    background-color: #fff;
+    margin-top: 10px;
+    line-height: 50px;
+    color: #8c8c8c;
+    font-size: 14px;
+    position: relative;
+}
+.cart-footer .btn{
+    display: block;
+    float: right;
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    border: 0px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* 猜你喜欢 */
+.my-history{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+.w1200{
+    width: 1200px;
+    height: auto;
+    margin-top: 50px;
+    margin: 50px auto 0;
+}
+.w1200 .my-like{
+    background: url(../images/dian-ico2.png) repeat-x 0 18px;
+    width: 1200px;
+    height: 35px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.w1200 .my-like h2{
+    background-color: #f8f8f8;
+    display: inline;
+    padding: 0 50px;
+    font-weight: 400;
+    font-size: 21px;
+    color: #555;
+}
+.like-goods{
+    width: 1200px;
+    height: 275px;
+    display: flex;
+    justify-content: space-between;
+}
+.like-goods .goods{
+    width: 190px;
+    height: 275px;
+}
+.like-goods .goods p:first-of-type{
+    color: #f42424;
+    font-size: 20px;
+    margin-top: 6px;
+}
+.like-goods .goods a{
+    display: block;
+    width: 100%;
+    height: 20px;
+    margin-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #333;
+    font-size: 12px;
+}
+.like-goods .goods a:hover{
+    color: #f42424;
+}
+.like-goods .goods p:last-of-type{
+    display: block;
+    color: #8c8c8c;
+    margin-top: 7px;
+    font-size: 12px;
+}
+.like-goods .goods:hover img{
+    filter:alpha(Opacity=80);
+    -moz-opacity:0.8;
+    opacity: 0.8
+}
+/* 猜你喜欢 */
+
+
+/* 页脚部分 */
+/* 页脚上边部分 */
+.footer-top{
+    width: 100%;
+    height: 32px;
+    padding: 24px 0;
+    background-color: #EEEEEE;
+}
+/* 页脚上边部分版心 */
+.footer-top .banner{
+    width: 1200px;
+    height: 90px;
+    margin: 0 auto;
+}
+/* 页脚上边部分列表 */
+.footer-top ul li{
+    float: left;
+    width: 174px;
+    height: 32px;
+}
+/* 页脚上边部分列表内图标 */
+.footer-top ul li div{
+    width: 32px;
+    height: 32px;
+    float: left;
+}
+/* 页脚上边部分列表内文字 */
+.footer-top ul li span{
+    float: left;
+    width: 132px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #888888;
+}
+/* 图标的引入 */
+.footer-top ul li .icon-1{
+    background: url(../images/footer_new_icon.png) no-repeat 0px 0px;
+}
+.footer-top ul li .icon-2{
+    background: url(../images/footer_new_icon.png) no-repeat -34px 0px;
+}
+.footer-top ul li .icon-3{
+    background: url(../images/footer_new_icon.png) no-repeat -68px 0px;
+}
+.footer-top ul li .icon-4{
+    background: url(../images/footer_new_icon.png) no-repeat -102px 0px;
+}
+.footer-top ul li .icon-5{
+    background: url(../images/footer_new_icon.png) no-repeat -136px 0px;
+}
+/* 页脚上边部分电话盒子 */
+.footer-top .phone{
+    width: 180px;
+    height: 32px;
+    float: left;
+}
+/* 页脚上边部分电话图标 */
+.footer-top .phone i{
+    float: left;
+    width: 26px;
+    height: 24px;
+    margin-top: 4px;
+    background: url(../images/footer_new_icon.png) no-repeat 0px -103px;
+}
+/* 页脚上边部分电话号码 */
+.footer-top .phone span{
+    float: left;
+    width: 140px;
+    height: 32px;
+    line-height: 32px;
+    font-weight: 900;
+    margin: 0 7px;
+}
+/* 页脚上边部分客服盒子 */
+.footer-top .service{
+    width: 115px;
+    height: 32px;
+    float: left;
+}
+/* 页脚上边部分客服图标 */
+.footer-top .service i{
+    float: left;
+    width: 30px;
+    height: 24px;
+    margin-top: 4px;
+    background: url(../images/footer_new_icon.png) no-repeat 0px -138px;
+    cursor: pointer;
+}
+/* 页脚上边部分咨询客服 */
+.footer-top .service span{
+    float: left;
+    width: 70px;
+    height: 32px;
+    line-height: 32px;
+    font-weight: 900;
+    margin: 0 7px;
+    cursor: pointer;
+}
+/* 页脚中间部分 */
+.footer-con{
+    width: 100%;
+    height: 190px;
+    background-color: #262626;
+}
+/* 页脚中间部分版心 */
+.footer-con .banner{
+    width: 1200px;
+    height: 129px;
+    margin: 0 auto;
+    border-bottom: 1px solid #464646;
+    padding: 30px 0;
+    color: #fff;
+}
+/* 页脚中间部分所有a标签设置 */
+.footer-con .banner a{
+    color: #cccccc;
+    font-size: 14px;
+}
+.footer-con .banner a:hover{
+    color: #f42424;
+}
+/* 页脚中间部分横向大列表 */
+.footer-con .banner .col li{
+    float: left;
+    width: 175px;
+    height: 129px;
+}
+/* 页脚中间部分横向大列表中的竖向小列表 */
+.footer-con .banner .col li .row li{
+    width: 175px;
+    height: 30px;
+    line-height: 30px;
+}
+/* 竖向小列表中的第一行单独样式设置 */
+.footer-con .banner .col li .row li:first-child{
+    font-weight: 900;
+    height: 20px;
+    padding-bottom: 20px;
+}
+/* 页脚中间部分两个二维码盒子 */
+.footer-con .banner .ewm{
+    float: left;
+    width: 104px;
+    height: 124px;
+    border: 2px solid #fff;
+    position: relative;
+}
+/* 第一个微信二维码 */
+.footer-con .banner .wxewm{
+    background: url(../images/ecjia_qrcode.jpg) no-repeat;
+    background-size: 100%;
+    margin-right: 60px;
+}
+/* 第二个下载app二维码 */
+.footer-con .banner .app{
+    background: url(../images/ectouch_qrcode.jpg) no-repeat;
+    background-size: 100%;
+}
+/* 两个二维码盒子中的底端文本设置 */
+.footer-con .banner .ewm span{
+    display: block;
+    width: 104px;
+    height: 18px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 18px;
+}
+/* 页脚下边部分 */
+.footer-bot{
+    width: 100%;
+    height: 90px;
+    padding: 30px 0px 20px;
+    background-color: #262626;
+}
+/* 页脚下边部版心设置 */
+.footer-bot .banner{
+    width: 1200px;
+    height: 90px;
+    margin: 0 auto;
+}
+/* 页脚下边部分文本设置 */
+.footer-bot p{
+    display: block;
+    width: 1200px;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+/* 页脚下边部分文本中a标签设置 */
+.footer-bot p a{
+    color: #888888;
+}
+.footer-bot p a:hover{
+    color: red;
+}
+/* 页脚下边部分文本中小细线设置 */
+.footer-bot p span{
+    display: inline-block;
+    margin: 0 17px;
+    width: 1px;
+    height: 11px;
+    background-color: #444444;
+}

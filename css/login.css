@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+/* 登录界面头部 */
+
+.login-hader {
+    width: 100%;
+    height: 130px;
+    line-height: 130px;
+}
+
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* logo */
+
+.logo {
+    float: left;
+    padding: 26px 0;
+    box-sizing: border-box;
+    height: 130px;
+}
+
+.logo-span {
+    float: left;
+    margin-left: 12px;
+    margin-top: 35px;
+}
+
+
+/* 头部导航栏右边 */
+
+.headre-right {
+    float: right;
+    font-size: 14px;
+    color: #333;
+}
+
+.headre-right a {
+    color: #f42424;
+}
+
+
+/* 主体登陆部分 */
+
+.main {
+    height: 530px;
+    background: url(../images/1564453243544166182.jpg) no-repeat center center;
+}
+
+.login-box {
+    float: right;
+    margin-top: 52px;
+    width: 350px;
+    background-color: #fff;
+    position: relative;
+}
+
+
+/* 二维码 */
+
+.login-qr {
+    width: 52px;
+    height: 52px;
+    color: #f42424;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.login-qr span {
+    font-size: 52px;
+}
+
+.coagent {
+    padding: 20px 40px 0;
+}
+
+.coagent-tit {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.coagent-tit h2 {
+    font-size: 16px;
+    color: #8c8c8c;
+    padding: 0 15px;
+    display: inline-block;
+    font-weight: 400;
+    position: relative;
+    z-index: 9;
+    background-color: #fff;
+}
+
+.coagent-tit p {
+    border-bottom: 1px dashed #e5e5e5;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    z-index: 8;
+}
+
+
+/* qq图标 */
+
+.coagent-qq {
+    height: 36px;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.coagent-qq span {
+    font-size: 36px;
+    color: #5091F3;
+}
+
+.coagent-qq span:last-child {
+    font-size: 38px;
+    display: none;
+}
+
+.coagent-qq a:hover span:last-child {
+    display: block;
+}
+
+.coagent-qq a:hover span:first-child {
+    display: none;
+}
+
+
+/* 登录框表单部分 */
+
+.login-content {
+    padding: 20px 40px 30px;
+    width: 270px;
+}
+
+
+/* 表单 */
+
+.form {
+    margin-top: 25px;
+}
+
+.item {
+    margin-bottom: 10px;
+    width: 268px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #d2d2d2;
+    position: relative;
+}
+
+.item span {
+    position: absolute;
+    color: #e8e8e8;
+    left: 10px;
+    top: 11px;
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+}
+
+.item input {
+    border: 0;
+    width: 223px;
+    padding: 5px 10px 5px 35px;
+    outline: 0;
+}
+
+.item img {
+    width: 112px;
+    height: 39px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.item-btn {
+    border: 0;
+}
+
+.item-btn input {
+    width: 100%;
+    height: 100%;
+    background: #ec5051;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form p {
+    font-size: 12px;
+    color: #8c8c8c;
+}
+
+.form p a:hover {
+    color: #f42424;
+}
+
+
+/* qq二维码 */
+
+.login-qq-er {
+    text-align: center;
+    display: none;
+}
+
+.login-qq-er img {
+    width: 198px;
+    height: 198px;
+}
+
+.login-qq-er p {
+    margin-top: 20px;
+}
+
+.login-qq-er p a {
+    color: #f42424;
+}
+
+
+/* 网页尾部 */
+
+.footer {
+    padding: 30px 0;
+    text-align: center;
+    background: #f8f8f8;
+    font-size: 12px;
+    color: #b5b5b5;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer p a {
+    color: #b5b5b5;
+}
+
+.footer p a:hover {
+    color: #f42424;
+}
